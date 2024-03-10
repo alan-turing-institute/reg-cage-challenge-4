@@ -34,3 +34,7 @@ CybORG/Emulator/AWS/Config/awsconfig.ini
 
 .ipynb_checkpoints/
 .idea
+
+include/site
+lib/python3.10
+bin/
