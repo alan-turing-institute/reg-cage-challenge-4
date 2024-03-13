@@ -36,5 +36,5 @@ CybORG/Emulator/AWS/Config/awsconfig.ini
 .idea
 
 include/site
-lib/python3.10
+lib/
 bin/

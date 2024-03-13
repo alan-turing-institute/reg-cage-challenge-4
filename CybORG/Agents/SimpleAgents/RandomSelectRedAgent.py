@@ -31,7 +31,7 @@ class RandomSelectRedAgent(BaseAgent):
         super().__init__(name, np_random=np_random)
         self.step = 0
         self.last_action = "Initial Observation"
-        self.print_output = False
+        self.print_output = True
         self.disable_withdraw = False
 
     def get_action(self, observation, action_space):

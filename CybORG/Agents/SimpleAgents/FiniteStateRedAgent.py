@@ -46,8 +46,8 @@ class FiniteStateRedAgent(BaseAgent):
         self.agent_subnets = agent_subnets
         self.action_list = self.action_list()
 
-        self.print_action_output = False
-        self.print_obs_output = False
+        self.print_action_output = True
+        self.print_obs_output = True
         self.prioritise_servers = False
 
         self.host_states_priority_list = self.set_host_state_priority_list()
